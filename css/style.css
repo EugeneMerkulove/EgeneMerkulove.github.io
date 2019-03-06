@@ -70,7 +70,7 @@ header .header-button {
     padding: 17px 55px;
     cursor: pointer;
     margin-top: 30px;
-    transition: all 0.2;
+    transition: all 0.2s;
 }
 header .header-button:hover {
     box-shadow:none;
