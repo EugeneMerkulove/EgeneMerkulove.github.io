@@ -20,20 +20,21 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
  <!-- Тут будет модержимое будущего сайта -->
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-7">	<img class="header-img" src="img/iMac-[Smart-object]1.png" alt="Монитор"></div>
+				<div class="col-lg-7"><img class="header-img wow fadeInLeftBig" src="img/iMac-[Smart-object]1.png" alt="Монитор"></div>
 				<div class="col-lg-5">
-					<p class="pre-title">Веб-разработчик</p>
-					<h1 class="main-title">Меркулов Евгений</h1>
-					<p class="sub-titile">Верстка на HTML/CSS <br>
+					<p class="pre-title wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+					<h1 class="main-title wow fadeInRightBig" data-wow-delay="0.2s">Меркулов Евгений</h1>
+					<p class="sub-titile wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS <br>
 							Разработка сайтов под ключ
 					</p>
-					<div class="button-block">
+					<div class="button-block wow fadeInRightBig" data-wow-delay="0.4s">
 						<button class="header-button">Связаться</button>
 						<p class="small">*Это бесплатно</p>
 					</div>
@@ -45,7 +46,7 @@
 	</header>
 	<section class="portfolio">
 		<div class="container">
-			<div class="portfolio-block">
+			<div class="portfolio-block wow fadeIn">
 				<h2 class="portfolio-title">Портфолио</h2>
 				<p class="portfolio-subtitle">Мои работы</p>
 				<div class="row">
@@ -92,10 +93,10 @@
 				<div class="col-md-4">
 					<div class="social-block">
 						<p>Подпишитесь:</p>
-						<a href=""><img src="img/facebook-logo-button.png" alt=""></a>
-						<a href=""><img src="img/vk-social-logotype.png" alt=""></a>
-						<a href=""><img src="img/telegram-symbol.png" alt=""></a>
-						<a href=""><img src="img/youtube-symbol.png" alt=""></a>
+						<a class="wow bounceInDown" data-wow-delay="0.1s" href=""><img src="img/facebook-logo-button.png" alt=""></a>
+						<a class="wow bounceInDown" data-wow-delay="0.2s" href=""><img src="img/vk-social-logotype.png" alt=""></a>
+						<a class="wow bounceInDown" data-wow-delay="0.3s" href=""><img src="img/telegram-symbol.png" alt=""></a>
+						<a class="wow bounceInDown" data-wow-delay="0.4s" href=""><img src="img/youtube-symbol.png" alt=""></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -109,7 +110,10 @@
 		</div>
 	</footer>
 	
-	<script src="main.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 
 </body>
 </html>
